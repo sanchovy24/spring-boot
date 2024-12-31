@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:h2:C:/study/spring_boot/MyApplicationH2/students
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  main:
+    allow-circular-references: true
+  h2:
+    console.enabled: true
+server:
+  port: 8084
+
